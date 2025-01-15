@@ -16,10 +16,10 @@ export default {
 			 sm:'640px',
 			 md:'768px',
 			 lg:'960px',
-			 sm:'1200px',
+			 xl:'1200px',
 	},
 	fontFamily:{
-		primary:"var(--font-jetbrainsMOno)",
+		primary:"var(--font-jetbrainsMono)",
 	},
   	extend: {
 		
@@ -42,7 +42,7 @@ export default {
 		},
 		animation:{
 			"accordion-down": "accordion-down 0.2s ease-out",
-			"accordion-up": "accordion-up 0,2s ease-out"
+			"accordion-up": "accordion-up 0.2s ease-out",
 		}
   	}
   },
