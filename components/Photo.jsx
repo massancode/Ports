@@ -2,7 +2,6 @@
 
  import {animate, motion} from "framer-motion"
  import Image from "next/image"
- import ImagePerfil from "@/assets/photo.png"
 
 
 const Photo = () => {
@@ -13,7 +12,8 @@ const Photo = () => {
             <motion.div 
             initial={{opacity:0}} animate={{ opacity:1,transition: {delay:2.4,duration:0.4, ease:"easeInOut"}}} className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute" >
 
-                <Image src={ImagePerfil}  priority quality={100} fill alt="image" className="object-contain" />
+                <Image src='/photo.png' priority quality={100} fill alt="image" className="object-contain" />
+            
 
             </motion.div>
 
