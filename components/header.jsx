@@ -19,8 +19,8 @@ const Header = () => {
          
          <div className="hidden xl:flex items-center gap-8">
            <Nav/>  
-          <Link href={'/contact'}>
-              <Button> Contrate-me</Button>
+          < Link target="_blank" href={'https://www.linkedin.com/in/fernando-lucas-de-castro-309352233/'} >
+              <Button> Contrate-me </Button>
            </Link>
          </div>
        

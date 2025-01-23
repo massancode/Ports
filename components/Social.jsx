@@ -5,7 +5,7 @@ import {FaGithub,FaLinkedin,FaYoutube,FaTwitter} from "react-icons/fa"
 
 const socials = [
     {icon: <FaGithub/>,path: "https://github.com/massancode"},
-    {icon: <FaLinkedin/>,path:"https://https://www.linkedin.com/in/fernando-lucas-de-castro-309352233/" },
+    {icon: <FaLinkedin/>,path:"https://www.linkedin.com/in/fernando-lucas-de-castro-309352233/" },
 ]
 
 const Social = ({containerStyles,iconStyles}) => {
@@ -14,7 +14,7 @@ const Social = ({containerStyles,iconStyles}) => {
     <div className={containerStyles}>
         {socials.map((item,index)=>{
             return(
-                <Link key={index} href={item.path} className={iconStyles} >
+                <Link target="_blank" key={index} href={item.path} className={iconStyles} >
                 {item.icon}
                 </Link>
             )
