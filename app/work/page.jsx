@@ -14,39 +14,34 @@ import Link from "next/link";
 import Image from "next/image";
 import { handler } from "tailwindcss-animate";
 
+import  WorkSliderBtns from "@/components/WorkSliderBtns"
+
 
 
 const projects = [
   {
     num:"01",
-    category:"frontend",
+    category:"Mobile",
     title:"Project 1",
-    description:"texto de teste para que possamos testar o tamanahao de textos",
-    stack:[{name:"Html 5"},{name:"Css 3"},{name:"JavaScript"},],
-    image: "assets/work/thumb1.png",
+    description:"A aplicação Nearby É uma cuponeria onde você consegue verificar, pela sua localização, quais os estabelecimentos oferecem descontos escaneando o cupom com QR code.",
+    stack:[{name:"React-Native"},{name:"Type-Script"},{name:"Async Storage"},{name:"Styled Components"},{name:"Expo"},
+    ],
+    image: "/assets/work/Nearby.png",
     live:"",
-    github:"",
+    github:"https://github.com/massancode/Nearby",
   },
   {
     num:"02",
     category:"FullStack",
     title:"Project 2",
-    description:"texto de teste para que possamos testar o tamanahao de textos",
-    stack:[{name:"Next.Js"},{name:"Tailwind.css"},{name:"Node.js"},],
-    image: "/assets/work/thumb2.png",
+    description:"A aplicação Academy Controll É um controle de academia com envio e tratamento de formulário no back-end usando Node.js. É uma excelente aplicação que fiz para poder estudar mais o desenvolvimento Full Stack.",
+    stack:[{name:"HTML5"},{name:"CSS3"},{name:"JavaScript"},{name:"Nunjucks"},{name:"Node.js"},{name:"Express.js"},
+    ],
+    image: "/assets/work/fitness.png",
     live:"",
-    github:"",
+    github:"https://github.com/massancode/controle_de_academia_com_JS",
   },
-  {
-    num:"03",
-    category:"FullStack",
-    title:"Project 3",
-    description:"texto de teste para que possamos testar o tamanahao de textos",
-    stack:[{name:"Next.Js"},{name:"Tailwind.css"},{name:"Node.js"},],
-    image: "/assets/work/thumb2.png",
-    live:"",
-    github:"",
-  },
+ 
 ]
 
 const Work = () => {
@@ -73,22 +68,25 @@ const Work = () => {
                 {project.category} 
               </h2>
               <p className="text-white/60">{project.description}</p>
+
               <ul className="flex gap-4">
                 {project.stack.map((item,index)=>{
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-x text-accent  ">
                         {item.name}     
                         {index !== project.stack.length -1 && ","}     
                     </li>
+                    
                   )
                 })}
+                
               </ul>
 
               <div className="border border-white/20 "></div>
 
               <div className="flex items-center gap-4">
 
-                <Link href={project.live}>
+               { /* <Link href={project.live}>
                  <TooltipProvider delayDuration={100}>
                    <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group" >
@@ -99,7 +97,7 @@ const Work = () => {
                     </TooltipContent>
                    </Tooltip>
                  </TooltipProvider>
-                </Link>
+                </Link> */}
 
                 <Link href={project.github}>
                  <TooltipProvider delayDuration={100}>
@@ -141,6 +139,10 @@ const Work = () => {
                 )
               })}
                             
+             <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+              btnStyles=" bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all "
+             />
+
             </Swiper>
 
           </div>
