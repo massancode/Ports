@@ -1,3 +1,61 @@
+
+<h1 align="center">
+  <img alt="Todo" height="80" title="Ports" src="covers_for_git/logo.png" />
+</h1>
+
+![cover](covers_for_git/COVER%20GRANDE.png )
+
+## 💻 Projeto
+
+O **Ports** é meu site de portfólio, versátil e responsivo para qualquer tamanho de tela. Desenvolvido com Next.js, Tailwind CSS e Framer Motion.
+
+Simples, direto e com boa fluidez! 🚀
+
+## ✨ Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
+
+-   [ ] **React** - 
+-   [ ] **Next.js** - 
+-   [ ] **TypeScript** - 
+-   [ ] **React Icons** - 
+-   [ ] **Tailwindo CSS** - 
+-   [ ] **Node.js** - 
+
+
+## 🚀 Executando o Projeto
+
+-Após clonar o repositório, siga os passos abaixo para rodar o projeto em seu ambiente local:
+
+# Usando npm
+-npm install
+
+# usando yarn
+-yarn install
+
+# Agora so iniciar
+-npx expo start
+
+## 📸 Capturas de Tela
+
+<table>
+  <tr>
+    <td align="center">
+      <img alt="Sem Tarefas" src="coversForGit/home.jpg" width="1080">
+      <p>Boas Vindas</p>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
