@@ -41,6 +41,28 @@ const projects = [
     live:"",
     github:"https://github.com/massancode/controle_de_academia_com_JS",
   },
+  {
+    num:"03",
+    category:"FrontEnd",
+    title:"Project 3",
+    description:"O Ports é o meu site de portfólio, onde você encontra meus principais serviços. Na construção dele, utilizei diversas referências de design e ideias que encontrei enquanto navegava pela web. 🌐✨",
+    stack:[{name:"Next JS"},{name:"CSS3"},{name:"Tailwind CSS"},{name:" Framer Motion"}
+    ],
+    image: "/assets/work/ports.png",
+    live:"",
+    github:"https://github.com/massancode/ports",
+  },
+  {
+    num:"04",
+    category:"Mobile",
+    title:"Project 3",
+    description:"A aplicação Todo foi desenvolvida para ajudar você a gerenciar suas tarefas diárias de maneira simples e eficiente. Adicione, visualize e remova tarefas com facilidade, mantendo-se organizado e produtivo.",
+    stack:[{name:"React-Native"},{name:"Type-Script"},{name:"Async Storage"},{name:"Styled Components"},{name:"Expo"}
+    ],
+    image: "/assets/work/toDo.png",
+    live:"",
+    github:"https://github.com/massancode/toDo-React-Native",
+  },
  
 ]
 

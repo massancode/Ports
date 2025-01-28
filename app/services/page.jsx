@@ -35,7 +35,7 @@ const Services = () => {
         <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{delay:2.4,duration:0.4,ease:"easeIn"}}} className="grid grid-cols-1 md:grid-cols-2  gap-[60px] ">
          {services.map((service,index)=>{
           return (
-            <div key={index} className="felx-1 flex flex-col justify-center gap-6 group" >
+            <div key={index} className="flex-1 flex flex-col justify-center gap-6 group" >
                   <div className="w-full flex justify-between items-center">
                     <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
                     <Link target="blank" href={service.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">

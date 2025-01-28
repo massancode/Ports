@@ -23,10 +23,7 @@ const links =[
     name:'portifólio',
     path:"/work",
   },
-  {
-    name:'contato',
-    path:"/contact",
-  },
+  
 ]
 
 const MobiNav = () => {
