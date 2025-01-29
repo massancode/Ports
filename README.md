@@ -22,20 +22,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 -   [ ] **Tailwindo CSS** - 
 -   [ ] **Node.js** - 
 
-
-## 🚀 Executando o Projeto
-
--Após clonar o repositório, siga os passos abaixo para rodar o projeto em seu ambiente local:
-
-# Usando npm
--npm install
-
-# usando yarn
--yarn install
-
-# Agora so iniciar
--npx expo start
-
 ## 📸 Capturas de Tela
 
 <table>
