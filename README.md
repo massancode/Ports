@@ -1,9 +1,9 @@
 
 <h1 align="center">
-  <img alt="Todo" height="80" title="Ports" src="covers_for_git/logo.png" />
+  <img alt="Todo" height="80" title="Ports" src="coversForGit/logo.png" />
 </h1>
 
-![cover](covers_for_git/COVER%20GRANDE.png )
+![cover](coversForGit/COVER%20GRANDE.png)
 
 ## 💻 Projeto
 
@@ -42,18 +42,26 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
   <tr>
     <td align="center">
       <img alt="Sem Tarefas" src="coversForGit/home.jpg" width="1080">
-      <p>Boas Vindas</p>
+      <p>Home</p>
+    </td>
+    <td align="center">
+      <img alt="Sem Tarefas" src="coversForGit/services.jpg" width="1080">
+      <p>services</p>
+    </td>
+    <td align="center">
+      <img alt="Sem Tarefas" src="coversForGit/about.jpg" width="1080">
+      <p>About</p>
+    </td>
+    <td align="center">
+      <img alt="Sem Tarefas" src="coversForGit/portifolio.jpg.jpg" width="1080">
+      <p>Portifolio</p>
+    </td>
+    <td align="center">
+      <img alt="Sem Tarefas" src="coversForGit/expirience.jpg.jpg" width="1080">
+      <p>services</p>
     </td>
   </tr>
 </table>
-
-
-
-
-
-
-
-
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
