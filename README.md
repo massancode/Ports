@@ -39,7 +39,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 ## 📸 Capturas de Tela
 
 <table>
-  <tr>
     <td align="center">
       <img alt="Sem Tarefas" src="coversForGit/home.jpg" width="1080">
       <p>Home</p>
@@ -53,14 +52,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
       <p>About</p>
     </td>
     <td align="center">
-      <img alt="Sem Tarefas" src="coversForGit/portifolio.jpg.jpg" width="1080">
+      <img alt="Sem Tarefas" src="coversForGit/portifolio.jpg" width="1080">
       <p>Portifolio</p>
     </td>
     <td align="center">
-      <img alt="Sem Tarefas" src="coversForGit/expirience.jpg.jpg" width="1080">
+      <img alt="Sem Tarefas" src="coversForGit/expirience.jpg" width="1080">
       <p>services</p>
     </td>
-  </tr>
 </table>
 
 
