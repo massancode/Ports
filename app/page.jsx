@@ -19,8 +19,9 @@ const Home = () => {
                 <br/> 
                 <span className="text-accent"> Fernando Massan</span>
               </h1>
+              <Stats/>
               <p className="max-w-[500px] mb-9 text-white/80">
-              Destaco-me na criação de experiências digitais elegantes e sou altamente competente em diversas linguagens de programação e tecnologias. 
+              Desenvolvedor com foco em front-end e mobile com 6 anos de experiência, especializado em React e React Native, além de experiência sólida em Node.js e TypeScript. Possuo habilidades em C# e Unity para a criação de games, com forte entendimento de lógica de programação e modelagem de dados.
               </p>
               {/* bts sociais media */}
               <div className="flex flex-col xl:flex-row items-center gap-8" >
@@ -44,7 +45,7 @@ const Home = () => {
            </div>
           </div>
       </div>
-      <Stats/>
+     
     </section>
   )
 }
